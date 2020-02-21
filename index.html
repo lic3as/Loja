@@ -3,9 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AllCell - Smartphones tão bons que te levam ao céu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="icon" type="imagem/png" href="images/Sem Título-1.png"/>
 </head>
 <body>
-    <!--fazer na loja o produto, nome, descriçao, preço e zoom na foto, usar o wow, usar slide-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="images/Sem Título-1.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      AllCell
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Galeria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="loja.html">Cadastre-se</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+      <style>
+        html, body {
+          position: relative;
+          height: 100%;
+        }
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color:#000;
+          margin: 0;
+          padding: 0;
+        }
+        .swiper-container {
+          width: 100%;
+          height: 100%;
+        }
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+    
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+        }
+      </style>
+    </head>
+    <body>
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/1568808431288.jpg" width="100%" height="100%">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/melhores-de-2019-veja-os-smartphones-mais-legais-com-preco-ate-r-3000-1576533548238_v2_900x506.jpg" width="100%" height="100%">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/AndroidPIT-Best-High-End-Smartphonesleseco-1600x900.jpg" width="100%" height="100%">
+          </div>
+        </div>
+      </br> 
+    </br>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    
+      <!-- Swiper JS -->
+      <script src="js/swiper.min.js"></script>
+    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+      <section id="pq" style="background: #1ac9c0; color:#3b3838; padding-left: 20px;margin: 10px; padding-top: 5px; font-size: 30px;
+      text-align: left; ; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+        <section class="wow flash" data-wow-duration="1s" data-wow-delay="0.5s">
+        <p>ALGUNS DOS NOSSOS PRODUTOS:</p>
+        </section>
+        </section>
+        <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init()
+    </script>
+      <div class="card-group">
+        <div class="card">
+          <img src="images/b15c99aebf6ebb85e07d51d812fbc9ae.jpg" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Samsung Galaxy A10</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="alert alert-danger" role="alert">
+              R$999,99
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/134163745_1GG.jpg" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Motorola One</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="alert alert-danger" role="alert">
+              R$2.999,99
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/lg-k12-max-azul-manna-celulares-shopping-cidade-1.jpg" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">LG K12 Max</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="alert alert-danger" role="alert">
+              R$1.999,99
+            </div>
+          </div>
+        </div>
+        <div class="card">
+            <img src="images/14875306885150.jpg" class="card-img-top" alt="..." width="200px" height="300px">
+            <div class="card-body">
+              <h5 class="card-title">Samsung Galaxy A50</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="alert alert-danger" role="alert">
+                R$2.999,99
+              </div>
+            </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="images/iphone-7-plus-apple-com-ios-11-dupla-camera-traseira-resistente-a-agua-wi-fi-4g-lte-e-nfc-32gb-dourado-tela-hd-de-55-10477708.jpg" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">IPhone 7 Plus Apple</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="alert alert-danger" role="alert">
+              R$3.999,99
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/Telemovel-Nokia-8-DS-64GB-Steel.jpg" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Nokia 8 DS</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer..</p>
+            <div class="alert alert-danger" role="alert">
+              R$999,99
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/celular-xiaomi-redmi-note-6-pro-32gb-dual-sim2.jpeg" class="card-img-top" alt="..." width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Redmi Note 6 Pro</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="alert alert-danger" role="alert">
+              R$2.999,99
+            </div>
+          </div>
+        </div>
+        <div class="card">
+            <img src="images/462139728_10GG.jpg" class="card-img-top" alt="..." width="200px" height="300px">
+            <div class="card-body">
+              <h5 class="card-title">Motorola Moto G8 Plus</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="alert alert-danger" role="alert">
+                R$1.999,99
+              </div>
+            </div>
+      </div>
+      </div>
+      <div class="card text-center">
+        <div class="card-body">
+          <div class="card-header">
+            <h5 class="card-title">AllCell - Smartphones tão bons que te levam ao céu</h5>
+          </div>
+          <h5 class="card-title"></h5>
+          <p class="card-text">Todos os direiros reservados ©</p>
+          <a href="loja.html" class="btn btn-primary">Cadastre-se</a>
+        </div>
+      </div>
 </body>
 </html>
